@@ -1,6 +1,6 @@
 # Starter pipeline
-- task: AzureRmWebAppDeployment@4
-  inputs:
+-task: AzureRmWebAppDeployment@4
+inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Microsoft Azure Enterprise - CoE(MS)(15c9a3ed-7da9-401a-8533-57039223ff04)'
     appType: 'webApp'
